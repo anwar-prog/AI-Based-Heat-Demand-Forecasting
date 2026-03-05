@@ -1,0 +1,44 @@
+
+FEATURE SELECTION SUMMARY REPORT
+================================
+
+Dataset Information:
+- Total records: 38,784
+- Date range: 2021-01-01 00:00:00 to 2025-06-04 23:00:00
+- Original features: 72
+- Selected features: 24
+- Reduction: 66.7%
+
+Target Variable: hdd_18
+
+Selection Methods Used:
+1. Correlation Analysis
+2. Random Forest Feature Importance  
+3. Mutual Information
+4. Cross-method validation
+
+Selected Features Ready for ML Models:
+1. V1_expected_delta_T
+2. N1_expected_supply_temp
+3. N2_expected_delta_T
+4. V1_expected_supply_temp
+5. V6_expected_supply_temp
+6. W1_expected_supply_temp
+7. V6_expected_delta_T
+8. W1_expected_delta_T
+9. F1_Sud_expected_supply_temp
+10. F1_Nord_expected_supply_temp
+11. B1_B2_expected_supply_temp
+12. F1_Sud_expected_delta_T
+13. B1_B2_expected_delta_T
+14. dewpt
+15. hdd_15_5
+16. ZN_expected_delta_T
+17. N2_expected_supply_temp
+18. N1_expected_delta_T
+19. F1_Nord_expected_delta_T
+20. temp
+21. app_temp
+22. V2_expected_supply_temp
+23. V2_expected_delta_T
+24. ZN_expected_supply_temp

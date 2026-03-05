@@ -1,0 +1,143 @@
+{
+  "method_name": "Test Hybrid RL-MPC",
+  "evaluation_timestamp": "2025-09-15T01:03:50.915889",
+  "sample_size": 50,
+  "metrics": {
+    "avg_cost": 45.08212780291885,
+    "std_cost": 3.4996675194531517,
+    "cost_range": [
+      36.83447185730959,
+      54.36908956922407
+    ],
+    "avg_demand_satisfaction": 0.9006538946983479,
+    "min_demand_satisfaction": 0.803749019746128,
+    "avg_efficiency": 0.8296984057654575,
+    "constraint_violations": 1,
+    "success_rate": 0.0,
+    "reliability_score": 90.80401025532568
+  },
+  "baseline_comparison": {
+    "Original SAC": {
+      "cost_improvement": 15.497417426581356,
+      "cost_better": "True",
+      "demand_difference": -6.234610530165208,
+      "demand_better": "False",
+      "efficiency_difference": 24.869840576545755,
+      "efficiency_better": "True",
+      "overall_improvement": 12.416650912681503,
+      "dominates": "False",
+      "dominated_by": false,
+      "baseline_description": "Original SAC implementation"
+    },
+    "Enhanced SAC": {
+      "cost_improvement": 6.020163012468525,
+      "cost_better": "True",
+      "demand_difference": 0.5653894698347872,
+      "demand_better": "True",
+      "efficiency_difference": 30.16984057654575,
+      "efficiency_better": "True",
+      "overall_improvement": 12.25179768628302,
+      "dominates": "True",
+      "dominated_by": false,
+      "baseline_description": "300k timesteps, enhanced architecture"
+    },
+    "Hybrid SAC-TD3": {
+      "cost_improvement": -20.411666140274708,
+      "cost_better": "False",
+      "demand_difference": 6.665389469834793,
+      "demand_better": "True",
+      "efficiency_difference": 31.56984057654575,
+      "efficiency_better": "True",
+      "overall_improvement": 9.343132325414397,
+      "dominates": "False",
+      "dominated_by": false,
+      "baseline_description": "Novel dual-phase training approach"
+    },
+    "TD3 Benchmark": {
+      "cost_improvement": -381.1326339692514,
+      "cost_better": "False",
+      "demand_difference": 65.66538946983479,
+      "demand_better": "True",
+      "efficiency_difference": 58.56984057654575,
+      "efficiency_better": "True",
+      "overall_improvement": -22.11036231274839,
+      "dominates": "False",
+      "dominated_by": false,
+      "baseline_description": "Excellent cost, poor demand satisfaction"
+    }
+  },
+  "statistical_analysis": {
+    "target_cost_test": {
+      "statistic": 40.168071349360005,
+      "p_value": 3.64900713303107e-39,
+      "significant": "True",
+      "effect_size": 5.7382959070514294,
+      "interpretation": "Cost significantly above target"
+    },
+    "demand_satisfaction_test": {
+      "statistic": 9.769655025744738,
+      "p_value": 4.3384635558155343e-13,
+      "significant": "True",
+      "effect_size": 1.3956650036778195,
+      "interpretation": "Demand satisfaction significantly above minimum"
+    },
+    "normality_test": {
+      "statistic": 0.9900062953935556,
+      "p_value": 0.9463223390195803,
+      "significant": "False",
+      "effect_size": 0.0,
+      "interpretation": "Data consistent with normal distribution"
+    },
+    "power_analysis": {
+      "statistic": 0.0,
+      "p_value": 0.0,
+      "significant": "False",
+      "effect_size": 5.7382959070514294,
+      "interpretation": "Study inadequately powered (power = 0.00)"
+    }
+  },
+  "confidence_intervals": {
+    "cost": [
+      44.07743563359334,
+      46.086819972244356
+    ],
+    "demand_satisfaction": [
+      0.8902346104777986,
+      0.9110731789188972
+    ],
+    "efficiency": [
+      0.8138673975164991,
+      0.845529414014416
+    ]
+  },
+  "target_achievement": {
+    "professor_requirements": {
+      "cost_target_met": "False",
+      "cost_acceptable": "False",
+      "demand_target_met": "False",
+      "overall_satisfied": "False"
+    },
+    "industry_readiness": {
+      "low_variance": "True",
+      "high_reliability": "True",
+      "zero_violations": "False",
+      "overall_ready": "False"
+    },
+    "gap_analysis": {
+      "cost_gap": 20.082127802918848,
+      "demand_gap": 4.625098025387198,
+      "variance_excess": 0,
+      "reliability_deficit": 0
+    },
+    "recommendations": [
+      "Reduce daily cost by 20.1\u20ac through longer RL training",
+      "Tighten MPC demand satisfaction constraints",
+      "Eliminate constraint violations with stricter MPC formulation"
+    ]
+  },
+  "overall_assessment": {
+    "overall_score": 60.73867066350719,
+    "grade": "D (Poor)",
+    "summary": "EXECUTIVE SUMMARY - Hybrid RL-MPC System Evaluation\n        \n        Performance Overview:\n        - Average daily cost: 45.1\u20ac (target: 25.0\u20ac)\n        - Demand satisfaction: 90.1% (minimum: 85%)\n        - System reliability: 91/100\n        - Overall score: 60.7/100 (D (Poor))\n        \n        Key Achievements:\n        - Constraint violations: 1 (zero violations achieved)\n        - Success rate: 0.0%\n        - Cost variance: 3.5\u20ac\n        \n        Professor Requirements: NOT SATISFIED\n        Industry Readiness: NOT READY\n        \n        Recommendation: Additional optimization needed"
+  }
+}

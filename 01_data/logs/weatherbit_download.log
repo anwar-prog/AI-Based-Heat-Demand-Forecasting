@@ -1,0 +1,387 @@
+2025-06-06 13:38:29,851 - INFO - Starting maximum weather data download for Schweinfurt
+2025-06-06 13:38:29,851 - INFO - Date range: 2021-01-01 to 2025-06-05 (4+ years)
+2025-06-06 13:38:29,852 - INFO - This will collect ~38,700 hours of weather data
+2025-06-06 13:38:29,852 - INFO - Requesting data from 2024-01-01 to 2024-01-02 (attempt 1)
+2025-06-06 13:38:30,096 - INFO - Successfully retrieved 24 records
+2025-06-06 13:38:30,098 - INFO - API key validation successful
+2025-06-06 13:38:30,100 - INFO - Downloading data from 2021-01-01 to 2025-06-05
+2025-06-06 13:38:30,101 - INFO - Total time span: 1616 days, will be processed in 108 chunks of 15 days each
+2025-06-06 13:38:30,108 - INFO - Requesting data from 2021-01-01 to 2021-01-16 (attempt 1)
+2025-06-06 13:38:30,385 - INFO - Successfully retrieved 360 records
+2025-06-06 13:38:30,413 - INFO - Chunk 1/108: Collected 360 hours
+2025-06-06 13:38:32,416 - INFO - Requesting data from 2021-01-16 to 2021-01-31 (attempt 1)
+2025-06-06 13:38:32,705 - INFO - Successfully retrieved 360 records
+2025-06-06 13:38:32,736 - INFO - Chunk 2/108: Collected 360 hours
+2025-06-06 13:38:34,739 - INFO - Requesting data from 2021-01-31 to 2021-02-15 (attempt 1)
+2025-06-06 13:38:35,037 - INFO - Successfully retrieved 360 records
+2025-06-06 13:38:35,063 - INFO - Chunk 3/108: Collected 360 hours
+2025-06-06 13:38:37,066 - INFO - Requesting data from 2021-02-15 to 2021-03-02 (attempt 1)
+2025-06-06 13:38:37,383 - INFO - Successfully retrieved 360 records
+2025-06-06 13:38:37,410 - INFO - Chunk 4/108: Collected 360 hours
+2025-06-06 13:38:39,412 - INFO - Requesting data from 2021-03-02 to 2021-03-17 (attempt 1)
+2025-06-06 13:38:39,723 - INFO - Successfully retrieved 360 records
+2025-06-06 13:38:39,751 - INFO - Chunk 5/108: Collected 360 hours
+2025-06-06 13:38:41,754 - INFO - Requesting data from 2021-03-17 to 2021-04-01 (attempt 1)
+2025-06-06 13:38:42,096 - INFO - Successfully retrieved 360 records
+2025-06-06 13:38:42,122 - INFO - Chunk 6/108: Collected 360 hours
+2025-06-06 13:38:44,126 - INFO - Requesting data from 2021-04-01 to 2021-04-16 (attempt 1)
+2025-06-06 13:38:44,399 - INFO - Successfully retrieved 360 records
+2025-06-06 13:38:44,534 - INFO - Chunk 7/108: Collected 360 hours
+2025-06-06 13:38:46,536 - INFO - Requesting data from 2021-04-16 to 2021-05-01 (attempt 1)
+2025-06-06 13:38:46,849 - INFO - Successfully retrieved 360 records
+2025-06-06 13:38:46,875 - INFO - Chunk 8/108: Collected 360 hours
+2025-06-06 13:38:48,877 - INFO - Requesting data from 2021-05-01 to 2021-05-16 (attempt 1)
+2025-06-06 13:38:49,161 - INFO - Successfully retrieved 360 records
+2025-06-06 13:38:49,202 - INFO - Chunk 9/108: Collected 360 hours
+2025-06-06 13:38:51,206 - INFO - Requesting data from 2021-05-16 to 2021-05-31 (attempt 1)
+2025-06-06 13:38:51,498 - INFO - Successfully retrieved 360 records
+2025-06-06 13:38:51,525 - INFO - Chunk 10/108: Collected 360 hours
+2025-06-06 13:38:53,528 - INFO - Requesting data from 2021-05-31 to 2021-06-15 (attempt 1)
+2025-06-06 13:38:53,850 - INFO - Successfully retrieved 360 records
+2025-06-06 13:38:54,000 - INFO - Chunk 11/108: Collected 360 hours
+2025-06-06 13:38:56,002 - INFO - Requesting data from 2021-06-15 to 2021-06-30 (attempt 1)
+2025-06-06 13:38:56,249 - INFO - Successfully retrieved 360 records
+2025-06-06 13:38:56,274 - INFO - Chunk 12/108: Collected 360 hours
+2025-06-06 13:38:58,277 - INFO - Requesting data from 2021-06-30 to 2021-07-15 (attempt 1)
+2025-06-06 13:38:58,590 - INFO - Successfully retrieved 360 records
+2025-06-06 13:38:58,617 - INFO - Chunk 13/108: Collected 360 hours
+2025-06-06 13:39:00,619 - INFO - Requesting data from 2021-07-15 to 2021-07-30 (attempt 1)
+2025-06-06 13:39:00,909 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:00,935 - INFO - Chunk 14/108: Collected 360 hours
+2025-06-06 13:39:02,938 - INFO - Requesting data from 2021-07-30 to 2021-08-14 (attempt 1)
+2025-06-06 13:39:03,367 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:03,394 - INFO - Chunk 15/108: Collected 360 hours
+2025-06-06 13:39:05,397 - INFO - Requesting data from 2021-08-14 to 2021-08-29 (attempt 1)
+2025-06-06 13:39:05,680 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:05,706 - INFO - Chunk 16/108: Collected 360 hours
+2025-06-06 13:39:07,708 - INFO - Requesting data from 2021-08-29 to 2021-09-13 (attempt 1)
+2025-06-06 13:39:08,013 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:08,039 - INFO - Chunk 17/108: Collected 360 hours
+2025-06-06 13:39:10,042 - INFO - Requesting data from 2021-09-13 to 2021-09-28 (attempt 1)
+2025-06-06 13:39:10,329 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:10,359 - INFO - Chunk 18/108: Collected 360 hours
+2025-06-06 13:39:12,363 - INFO - Requesting data from 2021-09-28 to 2021-10-13 (attempt 1)
+2025-06-06 13:39:12,692 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:12,731 - INFO - Chunk 19/108: Collected 360 hours
+2025-06-06 13:39:14,734 - INFO - Requesting data from 2021-10-13 to 2021-10-28 (attempt 1)
+2025-06-06 13:39:15,022 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:15,064 - INFO - Chunk 20/108: Collected 360 hours
+2025-06-06 13:39:17,067 - INFO - Requesting data from 2021-10-28 to 2021-11-12 (attempt 1)
+2025-06-06 13:39:17,378 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:17,404 - INFO - Chunk 21/108: Collected 360 hours
+2025-06-06 13:39:19,407 - INFO - Requesting data from 2021-11-12 to 2021-11-27 (attempt 1)
+2025-06-06 13:39:19,712 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:19,736 - INFO - Chunk 22/108: Collected 360 hours
+2025-06-06 13:39:21,739 - INFO - Requesting data from 2021-11-27 to 2021-12-12 (attempt 1)
+2025-06-06 13:39:22,033 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:22,065 - INFO - Chunk 23/108: Collected 360 hours
+2025-06-06 13:39:24,067 - INFO - Requesting data from 2021-12-12 to 2021-12-27 (attempt 1)
+2025-06-06 13:39:24,369 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:24,394 - INFO - Chunk 24/108: Collected 360 hours
+2025-06-06 13:39:26,396 - INFO - Requesting data from 2021-12-27 to 2022-01-11 (attempt 1)
+2025-06-06 13:39:26,791 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:26,817 - INFO - Chunk 25/108: Collected 360 hours
+2025-06-06 13:39:28,820 - INFO - Requesting data from 2022-01-11 to 2022-01-26 (attempt 1)
+2025-06-06 13:39:29,168 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:29,201 - INFO - Chunk 26/108: Collected 360 hours
+2025-06-06 13:39:31,205 - INFO - Requesting data from 2022-01-26 to 2022-02-10 (attempt 1)
+2025-06-06 13:39:31,612 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:31,639 - INFO - Chunk 27/108: Collected 360 hours
+2025-06-06 13:39:33,642 - INFO - Requesting data from 2022-02-10 to 2022-02-25 (attempt 1)
+2025-06-06 13:39:33,971 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:33,997 - INFO - Chunk 28/108: Collected 360 hours
+2025-06-06 13:39:36,005 - INFO - Requesting data from 2022-02-25 to 2022-03-12 (attempt 1)
+2025-06-06 13:39:36,410 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:36,436 - INFO - Chunk 29/108: Collected 360 hours
+2025-06-06 13:39:38,439 - INFO - Requesting data from 2022-03-12 to 2022-03-27 (attempt 1)
+2025-06-06 13:39:38,821 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:38,847 - INFO - Chunk 30/108: Collected 360 hours
+2025-06-06 13:39:40,850 - INFO - Requesting data from 2022-03-27 to 2022-04-11 (attempt 1)
+2025-06-06 13:39:41,373 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:41,458 - INFO - Chunk 31/108: Collected 360 hours
+2025-06-06 13:39:43,460 - INFO - Requesting data from 2022-04-11 to 2022-04-26 (attempt 1)
+2025-06-06 13:39:43,836 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:43,862 - INFO - Chunk 32/108: Collected 360 hours
+2025-06-06 13:39:45,864 - INFO - Requesting data from 2022-04-26 to 2022-05-11 (attempt 1)
+2025-06-06 13:39:46,224 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:46,250 - INFO - Chunk 33/108: Collected 360 hours
+2025-06-06 13:39:48,253 - INFO - Requesting data from 2022-05-11 to 2022-05-26 (attempt 1)
+2025-06-06 13:39:48,778 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:48,804 - INFO - Chunk 34/108: Collected 360 hours
+2025-06-06 13:39:50,807 - INFO - Requesting data from 2022-05-26 to 2022-06-10 (attempt 1)
+2025-06-06 13:39:51,152 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:51,180 - INFO - Chunk 35/108: Collected 360 hours
+2025-06-06 13:39:53,185 - INFO - Requesting data from 2022-06-10 to 2022-06-25 (attempt 1)
+2025-06-06 13:39:53,471 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:53,497 - INFO - Chunk 36/108: Collected 360 hours
+2025-06-06 13:39:55,501 - INFO - Requesting data from 2022-06-25 to 2022-07-10 (attempt 1)
+2025-06-06 13:39:55,831 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:55,857 - INFO - Chunk 37/108: Collected 360 hours
+2025-06-06 13:39:57,859 - INFO - Requesting data from 2022-07-10 to 2022-07-25 (attempt 1)
+2025-06-06 13:39:58,241 - INFO - Successfully retrieved 360 records
+2025-06-06 13:39:58,287 - INFO - Chunk 38/108: Collected 360 hours
+2025-06-06 13:40:00,289 - INFO - Requesting data from 2022-07-25 to 2022-08-09 (attempt 1)
+2025-06-06 13:40:00,632 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:00,659 - INFO - Chunk 39/108: Collected 360 hours
+2025-06-06 13:40:02,662 - INFO - Requesting data from 2022-08-09 to 2022-08-24 (attempt 1)
+2025-06-06 13:40:03,005 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:03,175 - INFO - Chunk 40/108: Collected 360 hours
+2025-06-06 13:40:05,178 - INFO - Requesting data from 2022-08-24 to 2022-09-08 (attempt 1)
+2025-06-06 13:40:05,549 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:05,575 - INFO - Chunk 41/108: Collected 360 hours
+2025-06-06 13:40:07,577 - INFO - Requesting data from 2022-09-08 to 2022-09-23 (attempt 1)
+2025-06-06 13:40:07,885 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:07,910 - INFO - Chunk 42/108: Collected 360 hours
+2025-06-06 13:40:09,912 - INFO - Requesting data from 2022-09-23 to 2022-10-08 (attempt 1)
+2025-06-06 13:40:10,306 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:10,333 - INFO - Chunk 43/108: Collected 360 hours
+2025-06-06 13:40:12,336 - INFO - Requesting data from 2022-10-08 to 2022-10-23 (attempt 1)
+2025-06-06 13:40:12,637 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:12,664 - INFO - Chunk 44/108: Collected 360 hours
+2025-06-06 13:40:14,668 - INFO - Requesting data from 2022-10-23 to 2022-11-07 (attempt 1)
+2025-06-06 13:40:15,041 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:15,067 - INFO - Chunk 45/108: Collected 360 hours
+2025-06-06 13:40:17,069 - INFO - Requesting data from 2022-11-07 to 2022-11-22 (attempt 1)
+2025-06-06 13:40:17,473 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:17,506 - INFO - Chunk 46/108: Collected 360 hours
+2025-06-06 13:40:19,508 - INFO - Requesting data from 2022-11-22 to 2022-12-07 (attempt 1)
+2025-06-06 13:40:19,891 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:19,918 - INFO - Chunk 47/108: Collected 360 hours
+2025-06-06 13:40:21,921 - INFO - Requesting data from 2022-12-07 to 2022-12-22 (attempt 1)
+2025-06-06 13:40:22,295 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:22,321 - INFO - Chunk 48/108: Collected 360 hours
+2025-06-06 13:40:24,324 - INFO - Requesting data from 2022-12-22 to 2023-01-06 (attempt 1)
+2025-06-06 13:40:24,755 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:24,782 - INFO - Chunk 49/108: Collected 360 hours
+2025-06-06 13:40:26,785 - INFO - Requesting data from 2023-01-06 to 2023-01-21 (attempt 1)
+2025-06-06 13:40:27,073 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:27,099 - INFO - Chunk 50/108: Collected 360 hours
+2025-06-06 13:40:29,101 - INFO - Requesting data from 2023-01-21 to 2023-02-05 (attempt 1)
+2025-06-06 13:40:29,425 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:29,546 - INFO - Chunk 51/108: Collected 360 hours
+2025-06-06 13:40:31,549 - INFO - Requesting data from 2023-02-05 to 2023-02-20 (attempt 1)
+2025-06-06 13:40:31,823 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:31,849 - INFO - Chunk 52/108: Collected 360 hours
+2025-06-06 13:40:33,853 - INFO - Requesting data from 2023-02-20 to 2023-03-07 (attempt 1)
+2025-06-06 13:40:34,310 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:34,344 - INFO - Chunk 53/108: Collected 360 hours
+2025-06-06 13:40:36,347 - INFO - Requesting data from 2023-03-07 to 2023-03-22 (attempt 1)
+2025-06-06 13:40:36,654 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:36,679 - INFO - Chunk 54/108: Collected 360 hours
+2025-06-06 13:40:38,681 - INFO - Requesting data from 2023-03-22 to 2023-04-06 (attempt 1)
+2025-06-06 13:40:38,999 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:39,025 - INFO - Chunk 55/108: Collected 360 hours
+2025-06-06 13:40:41,027 - INFO - Requesting data from 2023-04-06 to 2023-04-21 (attempt 1)
+2025-06-06 13:40:41,333 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:41,359 - INFO - Chunk 56/108: Collected 360 hours
+2025-06-06 13:40:43,363 - INFO - Requesting data from 2023-04-21 to 2023-05-06 (attempt 1)
+2025-06-06 13:40:43,702 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:43,727 - INFO - Chunk 57/108: Collected 360 hours
+2025-06-06 13:40:45,730 - INFO - Requesting data from 2023-05-06 to 2023-05-21 (attempt 1)
+2025-06-06 13:40:46,001 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:46,027 - INFO - Chunk 58/108: Collected 360 hours
+2025-06-06 13:40:48,029 - INFO - Requesting data from 2023-05-21 to 2023-06-05 (attempt 1)
+2025-06-06 13:40:48,392 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:48,419 - INFO - Chunk 59/108: Collected 360 hours
+2025-06-06 13:40:50,422 - INFO - Requesting data from 2023-06-05 to 2023-06-20 (attempt 1)
+2025-06-06 13:40:50,690 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:50,831 - INFO - Chunk 60/108: Collected 360 hours
+2025-06-06 13:40:52,833 - INFO - Requesting data from 2023-06-20 to 2023-07-05 (attempt 1)
+2025-06-06 13:40:53,199 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:53,226 - INFO - Chunk 61/108: Collected 360 hours
+2025-06-06 13:40:55,228 - INFO - Requesting data from 2023-07-05 to 2023-07-20 (attempt 1)
+2025-06-06 13:40:55,585 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:55,610 - INFO - Chunk 62/108: Collected 360 hours
+2025-06-06 13:40:57,611 - INFO - Requesting data from 2023-07-20 to 2023-08-04 (attempt 1)
+2025-06-06 13:40:57,973 - INFO - Successfully retrieved 360 records
+2025-06-06 13:40:58,000 - INFO - Chunk 63/108: Collected 360 hours
+2025-06-06 13:41:00,003 - INFO - Requesting data from 2023-08-04 to 2023-08-19 (attempt 1)
+2025-06-06 13:41:00,440 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:00,533 - INFO - Chunk 64/108: Collected 360 hours
+2025-06-06 13:41:02,535 - INFO - Requesting data from 2023-08-19 to 2023-09-03 (attempt 1)
+2025-06-06 13:41:03,070 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:03,098 - INFO - Chunk 65/108: Collected 360 hours
+2025-06-06 13:41:05,101 - INFO - Requesting data from 2023-09-03 to 2023-09-18 (attempt 1)
+2025-06-06 13:41:05,479 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:05,504 - INFO - Chunk 66/108: Collected 360 hours
+2025-06-06 13:41:07,507 - INFO - Requesting data from 2023-09-18 to 2023-10-03 (attempt 1)
+2025-06-06 13:41:07,913 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:07,939 - INFO - Chunk 67/108: Collected 360 hours
+2025-06-06 13:41:09,941 - INFO - Requesting data from 2023-10-03 to 2023-10-18 (attempt 1)
+2025-06-06 13:41:10,290 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:10,323 - INFO - Chunk 68/108: Collected 360 hours
+2025-06-06 13:41:12,325 - INFO - Requesting data from 2023-10-18 to 2023-11-02 (attempt 1)
+2025-06-06 13:41:12,761 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:12,802 - INFO - Chunk 69/108: Collected 360 hours
+2025-06-06 13:41:14,804 - INFO - Requesting data from 2023-11-02 to 2023-11-17 (attempt 1)
+2025-06-06 13:41:15,180 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:15,206 - INFO - Chunk 70/108: Collected 360 hours
+2025-06-06 13:41:17,210 - INFO - Requesting data from 2023-11-17 to 2023-12-02 (attempt 1)
+2025-06-06 13:41:17,576 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:17,620 - INFO - Chunk 71/108: Collected 360 hours
+2025-06-06 13:41:19,622 - INFO - Requesting data from 2023-12-02 to 2023-12-17 (attempt 1)
+2025-06-06 13:41:19,970 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:19,997 - INFO - Chunk 72/108: Collected 360 hours
+2025-06-06 13:41:22,000 - INFO - Requesting data from 2023-12-17 to 2024-01-01 (attempt 1)
+2025-06-06 13:41:22,414 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:22,440 - INFO - Chunk 73/108: Collected 360 hours
+2025-06-06 13:41:24,442 - INFO - Requesting data from 2024-01-01 to 2024-01-16 (attempt 1)
+2025-06-06 13:41:24,831 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:24,875 - INFO - Chunk 74/108: Collected 360 hours
+2025-06-06 13:41:26,877 - INFO - Requesting data from 2024-01-16 to 2024-01-31 (attempt 1)
+2025-06-06 13:41:27,273 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:27,398 - INFO - Chunk 75/108: Collected 360 hours
+2025-06-06 13:41:29,400 - INFO - Requesting data from 2024-01-31 to 2024-02-15 (attempt 1)
+2025-06-06 13:41:29,730 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:29,757 - INFO - Chunk 76/108: Collected 360 hours
+2025-06-06 13:41:31,759 - INFO - Requesting data from 2024-02-15 to 2024-03-01 (attempt 1)
+2025-06-06 13:41:32,135 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:32,162 - INFO - Chunk 77/108: Collected 360 hours
+2025-06-06 13:41:34,164 - INFO - Requesting data from 2024-03-01 to 2024-03-16 (attempt 1)
+2025-06-06 13:41:34,554 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:34,581 - INFO - Chunk 78/108: Collected 360 hours
+2025-06-06 13:41:36,583 - INFO - Requesting data from 2024-03-16 to 2024-03-31 (attempt 1)
+2025-06-06 13:41:36,993 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:37,146 - INFO - Chunk 79/108: Collected 360 hours
+2025-06-06 13:41:39,148 - INFO - Requesting data from 2024-03-31 to 2024-04-15 (attempt 1)
+2025-06-06 13:41:39,641 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:39,681 - INFO - Chunk 80/108: Collected 360 hours
+2025-06-06 13:41:41,683 - INFO - Requesting data from 2024-04-15 to 2024-04-30 (attempt 1)
+2025-06-06 13:41:42,065 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:42,092 - INFO - Chunk 81/108: Collected 360 hours
+2025-06-06 13:41:44,096 - INFO - Requesting data from 2024-04-30 to 2024-05-15 (attempt 1)
+2025-06-06 13:41:44,519 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:44,546 - INFO - Chunk 82/108: Collected 360 hours
+2025-06-06 13:41:46,549 - INFO - Requesting data from 2024-05-15 to 2024-05-30 (attempt 1)
+2025-06-06 13:41:46,972 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:46,997 - INFO - Chunk 83/108: Collected 360 hours
+2025-06-06 13:41:49,001 - INFO - Requesting data from 2024-05-30 to 2024-06-14 (attempt 1)
+2025-06-06 13:41:49,380 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:49,406 - INFO - Chunk 84/108: Collected 360 hours
+2025-06-06 13:41:51,408 - INFO - Requesting data from 2024-06-14 to 2024-06-29 (attempt 1)
+2025-06-06 13:41:51,740 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:51,766 - INFO - Chunk 85/108: Collected 360 hours
+2025-06-06 13:41:53,768 - INFO - Requesting data from 2024-06-29 to 2024-07-14 (attempt 1)
+2025-06-06 13:41:54,141 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:54,167 - INFO - Chunk 86/108: Collected 360 hours
+2025-06-06 13:41:56,170 - INFO - Requesting data from 2024-07-14 to 2024-07-29 (attempt 1)
+2025-06-06 13:41:56,499 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:56,671 - INFO - Chunk 87/108: Collected 360 hours
+2025-06-06 13:41:58,674 - INFO - Requesting data from 2024-07-29 to 2024-08-13 (attempt 1)
+2025-06-06 13:41:59,033 - INFO - Successfully retrieved 360 records
+2025-06-06 13:41:59,059 - INFO - Chunk 88/108: Collected 360 hours
+2025-06-06 13:42:01,062 - INFO - Requesting data from 2024-08-13 to 2024-08-28 (attempt 1)
+2025-06-06 13:42:01,428 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:01,458 - INFO - Chunk 89/108: Collected 360 hours
+2025-06-06 13:42:03,460 - INFO - Requesting data from 2024-08-28 to 2024-09-12 (attempt 1)
+2025-06-06 13:42:03,848 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:03,874 - INFO - Chunk 90/108: Collected 360 hours
+2025-06-06 13:42:05,877 - INFO - Requesting data from 2024-09-12 to 2024-09-27 (attempt 1)
+2025-06-06 13:42:06,250 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:06,277 - INFO - Chunk 91/108: Collected 360 hours
+2025-06-06 13:42:08,280 - INFO - Requesting data from 2024-09-27 to 2024-10-12 (attempt 1)
+2025-06-06 13:42:08,642 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:08,674 - INFO - Chunk 92/108: Collected 360 hours
+2025-06-06 13:42:10,676 - INFO - Requesting data from 2024-10-12 to 2024-10-27 (attempt 1)
+2025-06-06 13:42:11,012 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:11,038 - INFO - Chunk 93/108: Collected 360 hours
+2025-06-06 13:42:13,041 - INFO - Requesting data from 2024-10-27 to 2024-11-11 (attempt 1)
+2025-06-06 13:42:13,384 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:13,410 - INFO - Chunk 94/108: Collected 360 hours
+2025-06-06 13:42:15,413 - INFO - Requesting data from 2024-11-11 to 2024-11-26 (attempt 1)
+2025-06-06 13:42:15,743 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:15,873 - INFO - Chunk 95/108: Collected 360 hours
+2025-06-06 13:42:17,875 - INFO - Requesting data from 2024-11-26 to 2024-12-11 (attempt 1)
+2025-06-06 13:42:18,220 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:18,246 - INFO - Chunk 96/108: Collected 360 hours
+2025-06-06 13:42:20,249 - INFO - Requesting data from 2024-12-11 to 2024-12-26 (attempt 1)
+2025-06-06 13:42:20,605 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:20,630 - INFO - Chunk 97/108: Collected 360 hours
+2025-06-06 13:42:22,633 - INFO - Requesting data from 2024-12-26 to 2025-01-10 (attempt 1)
+2025-06-06 13:42:23,037 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:23,062 - INFO - Chunk 98/108: Collected 360 hours
+2025-06-06 13:42:25,064 - INFO - Requesting data from 2025-01-10 to 2025-01-25 (attempt 1)
+2025-06-06 13:42:25,400 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:25,525 - INFO - Chunk 99/108: Collected 360 hours
+2025-06-06 13:42:27,528 - INFO - Requesting data from 2025-01-25 to 2025-02-09 (attempt 1)
+2025-06-06 13:42:27,925 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:27,950 - INFO - Chunk 100/108: Collected 360 hours
+2025-06-06 13:42:29,954 - INFO - Requesting data from 2025-02-09 to 2025-02-24 (attempt 1)
+2025-06-06 13:42:30,280 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:30,312 - INFO - Chunk 101/108: Collected 360 hours
+2025-06-06 13:42:32,316 - INFO - Requesting data from 2025-02-24 to 2025-03-11 (attempt 1)
+2025-06-06 13:42:32,693 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:32,719 - INFO - Chunk 102/108: Collected 360 hours
+2025-06-06 13:42:34,721 - INFO - Requesting data from 2025-03-11 to 2025-03-26 (attempt 1)
+2025-06-06 13:42:35,077 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:35,106 - INFO - Chunk 103/108: Collected 360 hours
+2025-06-06 13:42:37,108 - INFO - Requesting data from 2025-03-26 to 2025-04-10 (attempt 1)
+2025-06-06 13:42:37,474 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:37,504 - INFO - Chunk 104/108: Collected 360 hours
+2025-06-06 13:42:39,507 - INFO - Requesting data from 2025-04-10 to 2025-04-25 (attempt 1)
+2025-06-06 13:42:39,858 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:39,887 - INFO - Chunk 105/108: Collected 360 hours
+2025-06-06 13:42:41,890 - INFO - Requesting data from 2025-04-25 to 2025-05-10 (attempt 1)
+2025-06-06 13:42:42,254 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:42,280 - INFO - Chunk 106/108: Collected 360 hours
+2025-06-06 13:42:44,284 - INFO - Requesting data from 2025-05-10 to 2025-05-25 (attempt 1)
+2025-06-06 13:42:44,585 - INFO - Successfully retrieved 360 records
+2025-06-06 13:42:44,610 - INFO - Chunk 107/108: Collected 360 hours
+2025-06-06 13:42:46,613 - INFO - Requesting data from 2025-05-25 to 2025-06-05 (attempt 1)
+2025-06-06 13:42:46,942 - INFO - Successfully retrieved 264 records
+2025-06-06 13:42:46,962 - INFO - Chunk 108/108: Collected 264 hours
+2025-06-06 13:42:48,965 - INFO - Download complete: 108/108 chunks successful
+2025-06-06 13:42:49,302 - INFO - Successfully parsed datetime column
+2025-06-06 13:42:49,803 - INFO - All data saved to weatherbit_data\schweinfurt_weather_2021-01-01_to_2025-06-05.csv
+2025-06-06 13:42:49,803 - INFO - Total records collected: 38784
+2025-06-06 13:42:49,821 - INFO - ===== Weather Data Analysis =====
+2025-06-06 13:42:49,822 - INFO - Total records: 38,784
+2025-06-06 13:42:49,833 - INFO - Date range: 2021-01-01 00:00:00 to 2025-06-04 23:00:00
+2025-06-06 13:42:49,834 - INFO - Data completeness: 38,784/38,784 hours (100.0%)
+2025-06-06 13:42:49,849 - WARNING - Missing values detected:
+2025-06-06 13:42:49,849 - WARNING -   h_angle: 38784 missing (100.0%)
+2025-06-06 13:42:49,850 - WARNING -   vis: 36 missing (0.1%)
+2025-06-06 13:42:49,850 - INFO - 
+Statistics for key weather parameters:
+2025-06-06 13:42:49,886 - INFO - 
+Monthly data completeness:
+2025-06-06 13:42:49,887 - WARNING - Months with incomplete data:
+2025-06-06 13:42:49,887 - WARNING -   2025-06: 96/720 hours (13.3%)
+2025-06-06 13:42:49,887 - INFO - 
+Data collection summary:
+2025-06-06 13:42:49,887 - INFO - Shape: (38784, 29)
+2025-06-06 13:42:49,931 - INFO - Memory usage: 23.7 MB
+2025-06-06 13:42:49,931 - INFO - 
+Available weather parameters (29):
+2025-06-06 13:42:49,931 - INFO -    1. app_temp
+2025-06-06 13:42:49,932 - INFO -    2. azimuth
+2025-06-06 13:42:49,932 - INFO -    3. clouds
+2025-06-06 13:42:49,932 - INFO -    4. datetime
+2025-06-06 13:42:49,932 - INFO -    5. dewpt
+2025-06-06 13:42:49,932 - INFO -    6. dhi
+2025-06-06 13:42:49,933 - INFO -    7. dni
+2025-06-06 13:42:49,933 - INFO -    8. elev_angle
+2025-06-06 13:42:49,933 - INFO -    9. ghi
+2025-06-06 13:42:49,933 - INFO -   10. h_angle
+2025-06-06 13:42:49,934 - INFO -   11. pod
+2025-06-06 13:42:49,934 - INFO -   12. precip
+2025-06-06 13:42:49,934 - INFO -   13. pres
+2025-06-06 13:42:49,934 - INFO -   14. revision_status
+2025-06-06 13:42:49,934 - INFO -   15. rh
+2025-06-06 13:42:49,935 - INFO -   16. slp
+2025-06-06 13:42:49,935 - INFO -   17. snow
+2025-06-06 13:42:49,935 - INFO -   18. solar_rad
+2025-06-06 13:42:49,935 - INFO -   19. temp
+2025-06-06 13:42:49,935 - INFO -   20. timestamp_local
+2025-06-06 13:42:49,936 - INFO -   21. timestamp_utc
+2025-06-06 13:42:49,936 - INFO -   22. ts
+2025-06-06 13:42:49,936 - INFO -   23. uv
+2025-06-06 13:42:49,936 - INFO -   24. vis
+2025-06-06 13:42:49,937 - INFO -   25. weather
+2025-06-06 13:42:49,937 - INFO -   26. wind_dir
+2025-06-06 13:42:49,937 - INFO -   27. wind_gust_spd
+2025-06-06 13:42:49,937 - INFO -   28. wind_spd
+2025-06-06 13:42:49,937 - INFO -   29. year_month
+2025-06-06 13:42:49,938 - INFO - Weather data download complete!
+2025-06-06 13:42:49,938 - INFO - Final dataset: 38,784 records covering 4+ years
+2025-06-06 13:42:49,939 - INFO - Perfect dataset for your thesis forecasting models!

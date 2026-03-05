@@ -1,0 +1,10 @@
+{
+  "episode_costs": [],
+  "episode_rewards": [],
+  "episode_demand_satisfaction": [],
+  "best_performance": {
+    "cost": Infinity,
+    "episode": 0,
+    "parameters": null
+  }
+}

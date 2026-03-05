@@ -1,0 +1,3165 @@
+{
+  "training_info": {
+    "algorithm": "TD3",
+    "timestamp": "20250914_010744",
+    "training_time_minutes": 26.778643631935118,
+    "model_path": "td3_implementation\\td3_results\\models\\best_model\\best_model.zip",
+    "configuration": {
+      "td3_hyperparameters": {
+        "learning_rate": 0.0003,
+        "buffer_size": 100000,
+        "batch_size": 256,
+        "gamma": 0.99,
+        "tau": 0.005,
+        "policy_delay": 2,
+        "target_policy_noise": 0.2,
+        "target_noise_clip": 0.5,
+        "policy_kwargs": {
+          "net_arch": [
+            256,
+            256
+          ]
+        },
+        "gradient_steps": 1,
+        "train_freq": 1,
+        "learning_starts": 10000,
+        "device": "auto"
+      },
+      "training_config": {
+        "total_timesteps": 100000,
+        "warmup_timesteps": 10000,
+        "eval_freq": 5000,
+        "n_eval_episodes": 5,
+        "eval_deterministic": true,
+        "reward_threshold": 50.0,
+        "patience": 5,
+        "log_interval": 1000,
+        "save_freq": 10000,
+        "tensorboard_log": true,
+        "progress_bar": true
+      },
+      "evaluation_config": {
+        "n_eval_episodes": 10,
+        "eval_deterministic": true,
+        "render_episodes": false,
+        "track_metrics": [
+          "avg_reward",
+          "avg_cost",
+          "avg_efficiency",
+          "demand_satisfaction",
+          "temperature_stability",
+          "cost_reduction_vs_baseline"
+        ],
+        "compare_with_baseline": true,
+        "compare_with_sac": true,
+        "save_episode_data": true,
+        "create_plots": true
+      }
+    }
+  },
+  "results": {
+    "td3_performance": {
+      "model_path": "td3_implementation\\td3_results\\models\\best_model\\best_model.zip",
+      "algorithm": "TD3",
+      "episodes": 10,
+      "episode_results": [
+        {
+          "episode": 1,
+          "reward": -796.5220743743788,
+          "cost": 1.8274783712968201e-06,
+          "efficiency": 1.1358863094557137e-07,
+          "demand_satisfaction": 1.1358863057343162e-07,
+          "temperature_stability": 0.8362045288085938,
+          "steps": [
+            {
+              "step": 0,
+              "reward": -29.23271942138672,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 1,
+              "reward": -29.505435943603516,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 2,
+              "reward": -29.925437927246094,
+              "total_production": 0.0,
+              "total_demand": 7.700000286102295,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 3,
+              "reward": -30.555435180664062,
+              "total_production": 0.0,
+              "total_demand": 11.550000190734863,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 4,
+              "reward": -31.529075622558594,
+              "total_production": 0.0,
+              "total_demand": 17.850000381469727,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 5,
+              "reward": -32.65544509887695,
+              "total_production": 0.0,
+              "total_demand": 20.649999618530273,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 6,
+              "reward": -34.06816864013672,
+              "total_production": 0.0,
+              "total_demand": 25.899999618530273,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 7,
+              "reward": -35.69089889526367,
+              "total_production": 0.0,
+              "total_demand": 29.75,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 8,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 33.599998474121094,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 9,
+              "reward": -36.95998360673403,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 36.04999923706055,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 8.266940909607001e-08
+            },
+            {
+              "step": 10,
+              "reward": -32.959983825683594,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 38.849998474121094,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 7.671125956676406e-08
+            },
+            {
+              "step": 11,
+              "reward": -32.959983825683594,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 41.29999923706055,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 7.21605886155885e-08
+            },
+            {
+              "step": 12,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 43.75,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 6.811959707420101e-08
+            },
+            {
+              "step": 13,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 45.150001525878906,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 6.60073595781796e-08
+            },
+            {
+              "step": 14,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 42.69999694824219,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 6.979467315204602e-08
+            },
+            {
+              "step": 15,
+              "reward": -32.959983825683594,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 36.04999923706055,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 8.266940909607001e-08
+            },
+            {
+              "step": 16,
+              "reward": -32.95998001098633,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 28.350000381469727,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 1.0512282955232877e-07
+            },
+            {
+              "step": 17,
+              "reward": -32.9599723815918,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 21.700000762939453,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 1.3733789216985315e-07
+            },
+            {
+              "step": 18,
+              "reward": -32.959964752197266,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 16.799999237060547,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 1.7739478153089294e-07
+            },
+            {
+              "step": 19,
+              "reward": -32.959999084472656,
+              "total_production": 0.0,
+              "total_demand": 12.600000381469727,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 20,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 7.700000286102295,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 21,
+              "reward": -36.95988175275216,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 5.0,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 5.960464477539062e-07
+            },
+            {
+              "step": 22,
+              "reward": -32.95988082885742,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 5.0,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 5.960464477539062e-07
+            },
+            {
+              "step": 23,
+              "reward": -32.95988082885742,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 5.0,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 5.960464477539062e-07
+            }
+          ]
+        },
+        {
+          "episode": 2,
+          "reward": -796.8888463445069,
+          "cost": 6.258487417198921e-07,
+          "efficiency": 2.4180629646745427e-08,
+          "demand_satisfaction": 2.418062951916324e-08,
+          "temperature_stability": 0.8658912181854248,
+          "steps": [
+            {
+              "step": 0,
+              "reward": -30.086368560791016,
+              "total_production": 0.0,
+              "total_demand": 20.649999618530273,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 1,
+              "reward": -30.85000991821289,
+              "total_production": 0.0,
+              "total_demand": 13.999999046325684,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 2,
+              "reward": -31.122730255126953,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 3,
+              "reward": -31.395450592041016,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 4,
+              "reward": -31.668167114257812,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 5,
+              "reward": -31.940887451171875,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 6,
+              "reward": -32.21360397338867,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 7,
+              "reward": -32.486324310302734,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 8,
+              "reward": -32.7590446472168,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 9,
+              "reward": -33.031761169433594,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 10,
+              "reward": -33.304481506347656,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 11,
+              "reward": -33.57720184326172,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 12,
+              "reward": -33.849918365478516,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 13,
+              "reward": -34.12263870239258,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 14,
+              "reward": -34.39535903930664,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 15,
+              "reward": -34.66807556152344,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 16,
+              "reward": -34.9407958984375,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 17,
+              "reward": -35.41807174682617,
+              "total_production": 0.0,
+              "total_demand": 8.75,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 18,
+              "reward": -36.25807189941406,
+              "total_production": 0.0,
+              "total_demand": 15.40000057220459,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 19,
+              "reward": -36.9599713750245,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 20.649999618530273,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 1.44321177231177e-07
+            },
+            {
+              "step": 20,
+              "reward": -32.95997619628906,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 24.5,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 1.2164213103460497e-07
+            },
+            {
+              "step": 21,
+              "reward": -32.95997619628906,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 24.5,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 1.2164213103460497e-07
+            },
+            {
+              "step": 22,
+              "reward": -32.95998001098633,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 29.75,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 1.0017587470656508e-07
+            },
+            {
+              "step": 23,
+              "reward": -32.95998001098633,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 32.20000076293945,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 9.25537975149382e-08
+            }
+          ]
+        },
+        {
+          "episode": 3,
+          "reward": -794.2450187683107,
+          "cost": 0.0,
+          "efficiency": 0.0,
+          "demand_satisfaction": 0.0,
+          "temperature_stability": 0.8690590858459473,
+          "steps": [
+            {
+              "step": 0,
+              "reward": -29.23271942138672,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 1,
+              "reward": -29.505435943603516,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 2,
+              "reward": -29.778156280517578,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 3,
+              "reward": -30.05087661743164,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 4,
+              "reward": -30.323593139648438,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 5,
+              "reward": -30.5963134765625,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 6,
+              "reward": -30.869029998779297,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 7,
+              "reward": -31.14175033569336,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 8,
+              "reward": -31.414470672607422,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 9,
+              "reward": -31.68718719482422,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 10,
+              "reward": -31.95990753173828,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 11,
+              "reward": -32.232627868652344,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 12,
+              "reward": -32.576263427734375,
+              "total_production": 0.0,
+              "total_demand": 6.300000190734863,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 13,
+              "reward": -32.99626159667969,
+              "total_production": 0.0,
+              "total_demand": 7.700000286102295,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 14,
+              "reward": -33.54990005493164,
+              "total_production": 0.0,
+              "total_demand": 10.149999618530273,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 15,
+              "reward": -34.179901123046875,
+              "total_production": 0.0,
+              "total_demand": 11.550000190734863,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 16,
+              "reward": -34.94354248046875,
+              "total_production": 0.0,
+              "total_demand": 13.999999046325684,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 17,
+              "reward": -35.78354263305664,
+              "total_production": 0.0,
+              "total_demand": 15.40000057220459,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 18,
+              "reward": -36.623538970947266,
+              "total_production": 0.0,
+              "total_demand": 15.40000057220459,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 19,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 16.799999237060547,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 20,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 16.799999237060547,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 21,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 11.550000190734863,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 22,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 23,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            }
+          ]
+        },
+        {
+          "episode": 4,
+          "reward": -822.5694938776722,
+          "cost": 2.8038025163823477e-06,
+          "efficiency": 1.1435306183453046e-07,
+          "demand_satisfaction": 1.1435306050754803e-07,
+          "temperature_stability": 0.843278706073761,
+          "steps": [
+            {
+              "step": 0,
+              "reward": -30.84998321533203,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 34.650001525878906,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 8.600958523174995e-08
+            },
+            {
+              "step": 1,
+              "reward": -28.892719268798828,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 37.45000076293945,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 7.957896031030032e-08
+            },
+            {
+              "step": 2,
+              "reward": -30.935455322265625,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 37.45000076293945,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 7.957896031030032e-08
+            },
+            {
+              "step": 3,
+              "reward": -32.69181442260742,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 32.20000076293945,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 9.25537975149382e-08
+            },
+            {
+              "step": 4,
+              "reward": -32.959999084472656,
+              "total_production": 0.0,
+              "total_demand": 25.899999618530273,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 5,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 19.249998092651367,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 6,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 12.600000381469727,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 7,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 7.700000286102295,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 8,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 6.300000190734863,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 9,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 10,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 11,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 12,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 13,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 14,
+              "reward": -36.95988175609002,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 5.0,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 5.960464477539062e-07
+            },
+            {
+              "step": 15,
+              "reward": -32.959922790527344,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 7.700000286102295,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 3.870431442010158e-07
+            },
+            {
+              "step": 16,
+              "reward": -32.9599609375,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 15.40000057220459,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 1.935215721005079e-07
+            },
+            {
+              "step": 17,
+              "reward": -32.95996856689453,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 17.850000381469727,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 1.6695977933522954e-07
+            },
+            {
+              "step": 18,
+              "reward": -32.9599723815918,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 21.700000762939453,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 1.3733789216985315e-07
+            },
+            {
+              "step": 19,
+              "reward": -32.95998001098633,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 29.75,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 1.0017587470656508e-07
+            },
+            {
+              "step": 20,
+              "reward": -32.95998001098633,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 30.80000114440918,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 9.676078605025396e-08
+            },
+            {
+              "step": 21,
+              "reward": -32.95994567871094,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 33.599998474121094,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 2.660921722963394e-07
+            },
+            {
+              "step": 22,
+              "reward": -32.95995330810547,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 37.45000076293945,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 2.38736902247183e-07
+            },
+            {
+              "step": 23,
+              "reward": -32.959957122802734,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 39.900001525878906,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 2.240776098005881e-07
+            }
+          ]
+        },
+        {
+          "episode": 5,
+          "reward": -785.2608375549316,
+          "cost": 2.3556947382985527e-05,
+          "efficiency": 3.954605170738053e-07,
+          "demand_satisfaction": 3.9546051739749874e-07,
+          "temperature_stability": 0.7874879837036133,
+          "steps": [
+            {
+              "step": 0,
+              "reward": -31.289073944091797,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 42.69999694824219,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 6.979467315204602e-08
+            },
+            {
+              "step": 1,
+              "reward": -29.675437927246094,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 43.75,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 6.811959707420101e-08
+            },
+            {
+              "step": 2,
+              "reward": -32.13816452026367,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 45.150001525878906,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 6.60073595781796e-08
+            },
+            {
+              "step": 3,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 45.150001525878906,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 6.60073595781796e-08
+            },
+            {
+              "step": 4,
+              "reward": -32.9599609375,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 45.150001525878906,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 1.980220645236841e-07
+            },
+            {
+              "step": 5,
+              "reward": -32.9599494934082,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 46.54999542236328,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 2.5608872533666727e-07
+            },
+            {
+              "step": 6,
+              "reward": -32.9599494934082,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 47.599998474121094,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 2.5043968321369903e-07
+            },
+            {
+              "step": 7,
+              "reward": -32.95995330810547,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 49.0,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 2.4328426206920994e-07
+            },
+            {
+              "step": 8,
+              "reward": -32.95995330810547,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 49.0,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 2.4328426206920994e-07
+            },
+            {
+              "step": 9,
+              "reward": -32.95995330810547,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 50.400001525878906,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 2.365263611636692e-07
+            },
+            {
+              "step": 10,
+              "reward": -32.95994186401367,
+              "total_production": 1.4901161193847656e-05,
+              "total_demand": 50.400001525878906,
+              "cost": 8.761882668295584e-07,
+              "efficiency": 2.9565794079644547e-07
+            },
+            {
+              "step": 11,
+              "reward": -32.95994567871094,
+              "total_production": 1.4901161193847656e-05,
+              "total_demand": 52.85000228881836,
+              "cost": 8.761882668295584e-07,
+              "efficiency": 2.8195194090585574e-07
+            },
+            {
+              "step": 12,
+              "reward": -32.95994567871094,
+              "total_production": 1.4901161193847656e-05,
+              "total_demand": 52.85000228881836,
+              "cost": 8.761882668295584e-07,
+              "efficiency": 2.8195194090585574e-07
+            },
+            {
+              "step": 13,
+              "reward": -32.95994186401367,
+              "total_production": 1.4901161193847656e-05,
+              "total_demand": 51.79999923706055,
+              "cost": 8.761882668295584e-07,
+              "efficiency": 2.876672056117968e-07
+            },
+            {
+              "step": 14,
+              "reward": -32.959938049316406,
+              "total_production": 1.4901161193847656e-05,
+              "total_demand": 47.599998474121094,
+              "cost": 8.761882668295584e-07,
+              "efficiency": 3.1304961112255114e-07
+            },
+            {
+              "step": 15,
+              "reward": -32.959922790527344,
+              "total_production": 1.7881393432617188e-05,
+              "total_demand": 46.54999542236328,
+              "cost": 7.510185469072894e-07,
+              "efficiency": 3.841330737941462e-07
+            },
+            {
+              "step": 16,
+              "reward": -32.95990753173828,
+              "total_production": 2.086162567138672e-05,
+              "total_demand": 45.150001525878906,
+              "cost": 8.761882668295584e-07,
+              "efficiency": 4.620515028364025e-07
+            },
+            {
+              "step": 17,
+              "reward": -32.95986557006836,
+              "total_production": 2.9802322387695312e-05,
+              "total_demand": 43.75,
+              "cost": 1.2516975402832031e-06,
+              "efficiency": 6.811959565311554e-07
+            },
+            {
+              "step": 18,
+              "reward": -32.95986557006836,
+              "total_production": 2.9802322387695312e-05,
+              "total_demand": 43.75,
+              "cost": 1.2516975402832031e-06,
+              "efficiency": 6.811959565311554e-07
+            },
+            {
+              "step": 19,
+              "reward": -32.959835052490234,
+              "total_production": 3.8743019104003906e-05,
+              "total_demand": 46.54999542236328,
+              "cost": 1.627206756893429e-06,
+              "efficiency": 8.322883786604507e-07
+            },
+            {
+              "step": 20,
+              "reward": -32.959835052490234,
+              "total_production": 4.470348358154297e-05,
+              "total_demand": 54.249996185302734,
+              "cost": 1.8775463104248047e-06,
+              "efficiency": 8.240273814408283e-07
+            },
+            {
+              "step": 21,
+              "reward": -32.959835052490234,
+              "total_production": 4.470348358154297e-05,
+              "total_demand": 54.249996185302734,
+              "cost": 2.6285647436452564e-06,
+              "efficiency": 8.240273814408283e-07
+            },
+            {
+              "step": 22,
+              "reward": -32.9598388671875,
+              "total_production": 4.470348358154297e-05,
+              "total_demand": 55.64999771118164,
+              "cost": 2.6285647436452564e-06,
+              "efficiency": 8.032971550164802e-07
+            },
+            {
+              "step": 23,
+              "reward": -32.959835052490234,
+              "total_production": 4.76837158203125e-05,
+              "total_demand": 56.70000076293945,
+              "cost": 2.803802544804057e-06,
+              "efficiency": 8.409826364186301e-07
+            }
+          ]
+        },
+        {
+          "episode": 6,
+          "reward": -815.9256627591017,
+          "cost": 6.383657421338285e-06,
+          "efficiency": 1.4801937394300543e-07,
+          "demand_satisfaction": 1.4801937207644546e-07,
+          "temperature_stability": 0.800832986831665,
+          "steps": [
+            {
+              "step": 0,
+              "reward": -31.079090118408203,
+              "total_production": 0.0,
+              "total_demand": 38.849998474121094,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 1,
+              "reward": -33.255455017089844,
+              "total_production": 0.0,
+              "total_demand": 39.900001525878906,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 2,
+              "reward": -35.43181610107422,
+              "total_production": 0.0,
+              "total_demand": 39.900001525878906,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 3,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 39.900001525878906,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 4,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 41.29999923706055,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 5,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 41.29999923706055,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 6,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 41.29999923706055,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 7,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 41.29999923706055,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 8,
+              "reward": -36.95997138336915,
+              "total_production": 5.9604644775390625e-06,
+              "total_demand": 41.29999923706055,
+              "cost": 2.5033949668795685e-07,
+              "efficiency": 1.44321177231177e-07
+            },
+            {
+              "step": 9,
+              "reward": -32.9599723815918,
+              "total_production": 5.9604644775390625e-06,
+              "total_demand": 41.29999923706055,
+              "cost": 2.5033949668795685e-07,
+              "efficiency": 1.44321177231177e-07
+            },
+            {
+              "step": 10,
+              "reward": -32.9599723815918,
+              "total_production": 5.9604644775390625e-06,
+              "total_demand": 41.29999923706055,
+              "cost": 2.5033949668795685e-07,
+              "efficiency": 1.44321177231177e-07
+            },
+            {
+              "step": 11,
+              "reward": -32.959957122802734,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 42.69999694824219,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 2.093840123507107e-07
+            },
+            {
+              "step": 12,
+              "reward": -32.959957122802734,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 42.69999694824219,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 2.093840123507107e-07
+            },
+            {
+              "step": 13,
+              "reward": -32.9599609375,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 43.75,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 2.0435878411717567e-07
+            },
+            {
+              "step": 14,
+              "reward": -32.9599609375,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 43.75,
+              "cost": 5.257129487290513e-07,
+              "efficiency": 2.0435878411717567e-07
+            },
+            {
+              "step": 15,
+              "reward": -32.9599609375,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 43.75,
+              "cost": 5.257129487290513e-07,
+              "efficiency": 2.0435878411717567e-07
+            },
+            {
+              "step": 16,
+              "reward": -32.959957122802734,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 42.69999694824219,
+              "cost": 5.257129487290513e-07,
+              "efficiency": 2.093840123507107e-07
+            },
+            {
+              "step": 17,
+              "reward": -32.959957122802734,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 39.900001525878906,
+              "cost": 5.257129487290513e-07,
+              "efficiency": 2.240776098005881e-07
+            },
+            {
+              "step": 18,
+              "reward": -32.95995330810547,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 37.45000076293945,
+              "cost": 5.257129487290513e-07,
+              "efficiency": 2.38736902247183e-07
+            },
+            {
+              "step": 19,
+              "reward": -32.9599494934082,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 34.650001525878906,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 2.580287628006772e-07
+            },
+            {
+              "step": 20,
+              "reward": -32.95994567871094,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 33.599998474121094,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 2.660921722963394e-07
+            },
+            {
+              "step": 21,
+              "reward": -32.95994186401367,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 30.80000114440918,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 2.9028234393990715e-07
+            },
+            {
+              "step": 22,
+              "reward": -32.95994186401367,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 29.75,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 3.005276312251226e-07
+            },
+            {
+              "step": 23,
+              "reward": -32.95994186401367,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 29.75,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 3.005276312251226e-07
+            }
+          ]
+        },
+        {
+          "episode": 7,
+          "reward": -771.8571166992188,
+          "cost": 9.88841040339139e-06,
+          "efficiency": 2.2908098943711744e-07,
+          "demand_satisfaction": 2.2908098690380246e-07,
+          "temperature_stability": 0.8105818629264832,
+          "steps": [
+            {
+              "step": 0,
+              "reward": -29.933605194091797,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 17.850000381469727,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 1.6695977933522954e-07
+            },
+            {
+              "step": 1,
+              "reward": -26.907245635986328,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 17.850000381469727,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 1.6695977933522954e-07
+            },
+            {
+              "step": 2,
+              "reward": -28.167255401611328,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 23.100000381469727,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 1.290143814003386e-07
+            },
+            {
+              "step": 3,
+              "reward": -29.579978942871094,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 25.899999618530273,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 1.1506688224471873e-07
+            },
+            {
+              "step": 4,
+              "reward": -31.04998016357422,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 26.94999885559082,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 1.1058376259143188e-07
+            },
+            {
+              "step": 5,
+              "reward": -32.93998718261719,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 34.650001525878906,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 8.600958523174995e-08
+            },
+            {
+              "step": 6,
+              "reward": -32.959983825683594,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 39.900001525878906,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 7.469253660019604e-08
+            },
+            {
+              "step": 7,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 42.69999694824219,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 6.979467315204602e-08
+            },
+            {
+              "step": 8,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 43.75,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 6.811959707420101e-08
+            },
+            {
+              "step": 9,
+              "reward": -32.95994567871094,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 43.75,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 2.7247838829680404e-07
+            },
+            {
+              "step": 10,
+              "reward": -32.9599494934082,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 46.54999542236328,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 2.5608872533666727e-07
+            },
+            {
+              "step": 11,
+              "reward": -32.95995330810547,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 51.79999923706055,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 2.3013376448943745e-07
+            },
+            {
+              "step": 12,
+              "reward": -32.959957122802734,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 52.85000228881836,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 2.2556156409336836e-07
+            },
+            {
+              "step": 13,
+              "reward": -32.95995330810547,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 50.400001525878906,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 2.365263611636692e-07
+            },
+            {
+              "step": 14,
+              "reward": -32.95995330810547,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 50.400001525878906,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 2.365263611636692e-07
+            },
+            {
+              "step": 15,
+              "reward": -32.95995330810547,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 49.0,
+              "cost": 7.009506362010143e-07,
+              "efficiency": 2.4328426206920994e-07
+            },
+            {
+              "step": 16,
+              "reward": -32.95995330810547,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 49.0,
+              "cost": 7.009506362010143e-07,
+              "efficiency": 2.4328426206920994e-07
+            },
+            {
+              "step": 17,
+              "reward": -32.9599494934082,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 45.150001525878906,
+              "cost": 7.009506362010143e-07,
+              "efficiency": 2.640294383127184e-07
+            },
+            {
+              "step": 18,
+              "reward": -32.959938049316406,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 38.849998474121094,
+              "cost": 7.009506362010143e-07,
+              "efficiency": 3.068450382670562e-07
+            },
+            {
+              "step": 19,
+              "reward": -32.959922790527344,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 30.80000114440918,
+              "cost": 7.009506362010143e-07,
+              "efficiency": 3.870431442010158e-07
+            },
+            {
+              "step": 20,
+              "reward": -32.95991897583008,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 29.75,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 4.0070349882626033e-07
+            },
+            {
+              "step": 21,
+              "reward": -32.95991516113281,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 28.350000381469727,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 4.2049131820931507e-07
+            },
+            {
+              "step": 22,
+              "reward": -32.95991897583008,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 29.75,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 4.0070349882626033e-07
+            },
+            {
+              "step": 23,
+              "reward": -32.959922790527344,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 30.80000114440918,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 3.870431442010158e-07
+            }
+          ]
+        },
+        {
+          "episode": 8,
+          "reward": -787.5157356262207,
+          "cost": 8.13603406868424e-06,
+          "efficiency": 1.278054078864462e-07,
+          "demand_satisfaction": 1.2780540835942368e-07,
+          "temperature_stability": 0.777133047580719,
+          "steps": [
+            {
+              "step": 0,
+              "reward": -31.785442352294922,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 51.79999923706055,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 5.7533441122359363e-08
+            },
+            {
+              "step": 1,
+              "reward": -30.61089324951172,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 51.79999923706055,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 5.7533441122359363e-08
+            },
+            {
+              "step": 2,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 52.85000228881836,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 5.639039102334209e-08
+            },
+            {
+              "step": 3,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 52.85000228881836,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 5.639039102334209e-08
+            },
+            {
+              "step": 4,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 54.249996185302734,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 5.493516042065494e-08
+            },
+            {
+              "step": 5,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 55.64999771118164,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 5.355314058874683e-08
+            },
+            {
+              "step": 6,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 55.64999771118164,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 5.355314058874683e-08
+            },
+            {
+              "step": 7,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 55.64999771118164,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 5.355314058874683e-08
+            },
+            {
+              "step": 8,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 54.249996185302734,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 5.493516042065494e-08
+            },
+            {
+              "step": 9,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 50.400001525878906,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 5.91315902909173e-08
+            },
+            {
+              "step": 10,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 51.79999923706055,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 5.7533441122359363e-08
+            },
+            {
+              "step": 11,
+              "reward": -32.95998764038086,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 50.400001525878906,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 5.91315902909173e-08
+            },
+            {
+              "step": 12,
+              "reward": -32.95997619628906,
+              "total_production": 5.9604644775390625e-06,
+              "total_demand": 50.400001525878906,
+              "cost": 2.5033949668795685e-07,
+              "efficiency": 1.182631805818346e-07
+            },
+            {
+              "step": 13,
+              "reward": -32.959964752197266,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 49.0,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 1.8246319655190746e-07
+            },
+            {
+              "step": 14,
+              "reward": -32.9599609375,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 47.599998474121094,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 1.8782976951570163e-07
+            },
+            {
+              "step": 15,
+              "reward": -32.9599609375,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 47.599998474121094,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 1.8782976951570163e-07
+            },
+            {
+              "step": 16,
+              "reward": -32.9599609375,
+              "total_production": 8.940696716308594e-06,
+              "total_demand": 47.599998474121094,
+              "cost": 3.755092734536447e-07,
+              "efficiency": 1.8782976951570163e-07
+            },
+            {
+              "step": 17,
+              "reward": -32.95995330810547,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 49.0,
+              "cost": 7.009506362010143e-07,
+              "efficiency": 2.4328426206920994e-07
+            },
+            {
+              "step": 18,
+              "reward": -32.95995330810547,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 51.79999923706055,
+              "cost": 7.009506362010143e-07,
+              "efficiency": 2.3013376448943745e-07
+            },
+            {
+              "step": 19,
+              "reward": -32.959957122802734,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 52.85000228881836,
+              "cost": 7.009506362010143e-07,
+              "efficiency": 2.2556156409336836e-07
+            },
+            {
+              "step": 20,
+              "reward": -32.959957122802734,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 55.64999771118164,
+              "cost": 7.009506362010143e-07,
+              "efficiency": 2.142125623549873e-07
+            },
+            {
+              "step": 21,
+              "reward": -32.9599609375,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 58.099998474121094,
+              "cost": 7.009506362010143e-07,
+              "efficiency": 2.0517950360954273e-07
+            },
+            {
+              "step": 22,
+              "reward": -32.959964752197266,
+              "total_production": 1.1920928955078125e-05,
+              "total_demand": 64.75,
+              "cost": 5.006789933759137e-07,
+              "efficiency": 1.8410700874937902e-07
+            },
+            {
+              "step": 23,
+              "reward": -32.95995330810547,
+              "total_production": 1.4901161193847656e-05,
+              "total_demand": 65.80000305175781,
+              "cost": 6.258487701416016e-07,
+              "efficiency": 2.2646140962478967e-07
+            }
+          ]
+        },
+        {
+          "episode": 9,
+          "reward": -786.3305740356445,
+          "cost": 1.136541359869625e-05,
+          "efficiency": 2.6158060488038853e-07,
+          "demand_satisfaction": 2.6158060738400945e-07,
+          "temperature_stability": 0.8091219067573547,
+          "steps": [
+            {
+              "step": 0,
+              "reward": -31.785442352294922,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 51.79999923706055,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 5.7533441122359363e-08
+            },
+            {
+              "step": 1,
+              "reward": -30.17180633544922,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 43.75,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 6.811959707420101e-08
+            },
+            {
+              "step": 2,
+              "reward": -32.214534759521484,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 37.45000076293945,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 7.957896031030032e-08
+            },
+            {
+              "step": 3,
+              "reward": -32.95998001098633,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 32.20000076293945,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 9.25537975149382e-08
+            },
+            {
+              "step": 4,
+              "reward": -32.95998001098633,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 29.75,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 1.0017587470656508e-07
+            },
+            {
+              "step": 5,
+              "reward": -32.95998001098633,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 28.350000381469727,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 1.0512282955232877e-07
+            },
+            {
+              "step": 6,
+              "reward": -32.95998001098633,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 30.80000114440918,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 9.676078605025396e-08
+            },
+            {
+              "step": 7,
+              "reward": -32.959983825683594,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 33.599998474121094,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 8.869739076544647e-08
+            },
+            {
+              "step": 8,
+              "reward": -32.959983825683594,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 37.45000076293945,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 7.957896031030032e-08
+            },
+            {
+              "step": 9,
+              "reward": -32.959983825683594,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 38.849998474121094,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 7.671125956676406e-08
+            },
+            {
+              "step": 10,
+              "reward": -32.959983825683594,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 38.849998474121094,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 7.671125956676406e-08
+            },
+            {
+              "step": 11,
+              "reward": -32.959983825683594,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 37.45000076293945,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 7.957896031030032e-08
+            },
+            {
+              "step": 12,
+              "reward": -32.959983825683594,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 36.04999923706055,
+              "cost": 1.7523765905025357e-07,
+              "efficiency": 8.266940909607001e-08
+            },
+            {
+              "step": 13,
+              "reward": -32.959983825683594,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 34.650001525878906,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 8.600958523174995e-08
+            },
+            {
+              "step": 14,
+              "reward": -32.959983825683594,
+              "total_production": 2.9802322387695312e-06,
+              "total_demand": 34.650001525878906,
+              "cost": 1.2516974834397843e-07,
+              "efficiency": 8.600958523174995e-08
+            },
+            {
+              "step": 15,
+              "reward": -32.959896087646484,
+              "total_production": 1.7881393432617188e-05,
+              "total_demand": 33.599998474121094,
+              "cost": 7.510185469072894e-07,
+              "efficiency": 5.321843445926788e-07
+            },
+            {
+              "step": 16,
+              "reward": -32.95988845825195,
+              "total_production": 1.7881393432617188e-05,
+              "total_demand": 32.20000076293945,
+              "cost": 7.510185469072894e-07,
+              "efficiency": 5.55322742457065e-07
+            },
+            {
+              "step": 17,
+              "reward": -32.95988845825195,
+              "total_production": 1.7881393432617188e-05,
+              "total_demand": 32.20000076293945,
+              "cost": 7.510185469072894e-07,
+              "efficiency": 5.55322742457065e-07
+            },
+            {
+              "step": 18,
+              "reward": -32.95988845825195,
+              "total_production": 1.7881393432617188e-05,
+              "total_demand": 32.20000076293945,
+              "cost": 7.510185469072894e-07,
+              "efficiency": 5.55322742457065e-07
+            },
+            {
+              "step": 19,
+              "reward": -32.95988082885742,
+              "total_production": 2.086162567138672e-05,
+              "total_demand": 34.650001525878906,
+              "cost": 8.761882668295584e-07,
+              "efficiency": 6.020670753059676e-07
+            },
+            {
+              "step": 20,
+              "reward": -32.959896087646484,
+              "total_production": 2.086162567138672e-05,
+              "total_demand": 39.900001525878906,
+              "cost": 8.761882668295584e-07,
+              "efficiency": 5.228477562013722e-07
+            },
+            {
+              "step": 21,
+              "reward": -32.959877014160156,
+              "total_production": 2.682209014892578e-05,
+              "total_demand": 42.69999694824219,
+              "cost": 1.5771388461871538e-06,
+              "efficiency": 6.281520654738415e-07
+            },
+            {
+              "step": 22,
+              "reward": -32.95988082885742,
+              "total_production": 2.682209014892578e-05,
+              "total_demand": 45.150001525878906,
+              "cost": 1.5771388461871538e-06,
+              "efficiency": 5.940661935710523e-07
+            },
+            {
+              "step": 23,
+              "reward": -32.959903717041016,
+              "total_production": 2.086162567138672e-05,
+              "total_demand": 43.75,
+              "cost": 1.2266635849300656e-06,
+              "efficiency": 4.76837158203125e-07
+            }
+          ]
+        },
+        {
+          "episode": 10,
+          "reward": -821.7330920410159,
+          "cost": 0.0,
+          "efficiency": 0.0,
+          "demand_satisfaction": 0.0,
+          "temperature_stability": 0.8660790324211121,
+          "steps": [
+            {
+              "step": 0,
+              "reward": -29.23271942138672,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 1,
+              "reward": -29.505435943603516,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 2,
+              "reward": -29.778156280517578,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 3,
+              "reward": -30.05087661743164,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 4,
+              "reward": -30.528152465820312,
+              "total_production": 0.0,
+              "total_demand": 8.75,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 5,
+              "reward": -31.158153533935547,
+              "total_production": 0.0,
+              "total_demand": 11.550000190734863,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 6,
+              "reward": -31.84542465209961,
+              "total_production": 0.0,
+              "total_demand": 12.600000381469727,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 7,
+              "reward": -32.53269577026367,
+              "total_production": 0.0,
+              "total_demand": 12.600000381469727,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 8,
+              "reward": -33.219970703125,
+              "total_production": 0.0,
+              "total_demand": 12.600000381469727,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 9,
+              "reward": -33.983612060546875,
+              "total_production": 0.0,
+              "total_demand": 13.999999046325684,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 10,
+              "reward": -34.823612213134766,
+              "total_production": 0.0,
+              "total_demand": 15.40000057220459,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 11,
+              "reward": -35.37725067138672,
+              "total_production": 0.0,
+              "total_demand": 10.149999618530273,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 12,
+              "reward": -35.649967193603516,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 13,
+              "reward": -35.922691345214844,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 14,
+              "reward": -36.19540786743164,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 15,
+              "reward": -36.46812057495117,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 16,
+              "reward": -36.7408447265625,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 17,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 18,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 19,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 20,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 21,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 22,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            },
+            {
+              "step": 23,
+              "reward": -36.96000000000001,
+              "total_production": 0.0,
+              "total_demand": 5.0,
+              "cost": 0.0,
+              "efficiency": 0.0
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "avg_reward": -797.8848452081003,
+        "std_reward": 16.116659659658623,
+        "avg_cost": 6.458759250449475e-06,
+        "std_cost": 6.951734681812523e-06,
+        "avg_efficiency": 1.41406921564761e-07,
+        "std_efficiency": 1.1922248886001738e-07,
+        "avg_demand_satisfaction": 1.4140692127213228e-07,
+        "avg_temperature_stability": 0.8265670537948608
+      },
+      "evaluation_timestamp": "2025-09-14T01:34:38.234293"
+    },
+    "baseline_comparison": {
+      "rl_results": {
+        "model_path": "td3_implementation\\td3_results\\models\\best_model\\best_model.zip",
+        "algorithm": "TD3",
+        "episodes": 5,
+        "episode_results": [
+          {
+            "episode": 1,
+            "reward": -818.3871201126697,
+            "cost": 1.4519691262648848e-06,
+            "efficiency": 4.284325635002991e-08,
+            "demand_satisfaction": 4.2843255768824066e-08,
+            "temperature_stability": 0.8398405909538269,
+            "steps": [
+              {
+                "step": 0,
+                "reward": -29.933635711669922,
+                "total_production": 0.0,
+                "total_demand": 17.850000381469727,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 1,
+                "reward": -30.773635864257812,
+                "total_production": 0.0,
+                "total_demand": 15.40000057220459,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 2,
+                "reward": -31.537277221679688,
+                "total_production": 0.0,
+                "total_demand": 13.999999046325684,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 3,
+                "reward": -32.224552154541016,
+                "total_production": 0.0,
+                "total_demand": 12.600000381469727,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 4,
+                "reward": -33.06454849243164,
+                "total_production": 0.0,
+                "total_demand": 15.40000057220459,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 5,
+                "reward": -34.03818893432617,
+                "total_production": 0.0,
+                "total_demand": 17.850000381469727,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 6,
+                "reward": -35.16455841064453,
+                "total_production": 0.0,
+                "total_demand": 20.649999618530273,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 7,
+                "reward": -36.290931701660156,
+                "total_production": 0.0,
+                "total_demand": 20.649999618530273,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 8,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 23.100000381469727,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 9,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 24.5,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 10,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 24.5,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 11,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 25.899999618530273,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 12,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 26.94999885559082,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 13,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 26.94999885559082,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 14,
+                "reward": -36.95997915197604,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 28.350000381469727,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 1.0512282955232877e-07
+              },
+              {
+                "step": 15,
+                "reward": -32.95997619628906,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 26.94999885559082,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 1.1058376259143188e-07
+              },
+              {
+                "step": 16,
+                "reward": -32.95998001098633,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 28.350000381469727,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 1.0512282955232877e-07
+              },
+              {
+                "step": 17,
+                "reward": -32.95998001098633,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 29.75,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 1.0017587470656508e-07
+              },
+              {
+                "step": 18,
+                "reward": -32.95998001098633,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 30.80000114440918,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 9.676078605025396e-08
+              },
+              {
+                "step": 19,
+                "reward": -32.95998001098633,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 30.80000114440918,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 9.676078605025396e-08
+              },
+              {
+                "step": 20,
+                "reward": -32.95998001098633,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 30.80000114440918,
+                "cost": 1.7523765905025357e-07,
+                "efficiency": 9.676078605025396e-08
+              },
+              {
+                "step": 21,
+                "reward": -32.95998001098633,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 30.80000114440918,
+                "cost": 1.7523765905025357e-07,
+                "efficiency": 9.676078605025396e-08
+              },
+              {
+                "step": 22,
+                "reward": -32.95998001098633,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 28.350000381469727,
+                "cost": 1.7523765905025357e-07,
+                "efficiency": 1.0512282955232877e-07
+              },
+              {
+                "step": 23,
+                "reward": -32.95997619628906,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 25.899999618530273,
+                "cost": 1.7523765905025357e-07,
+                "efficiency": 1.1506688224471873e-07
+              }
+            ]
+          },
+          {
+            "episode": 2,
+            "reward": -820.5270101293029,
+            "cost": 2.0027160303470737e-06,
+            "efficiency": 5.037442788828154e-08,
+            "demand_satisfaction": 5.03744274258282e-08,
+            "temperature_stability": 0.8113072514533997,
+            "steps": [
+              {
+                "step": 0,
+                "reward": -30.639999389648438,
+                "total_production": 0.0,
+                "total_demand": 30.80000114440918,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 1,
+                "reward": -32.396366119384766,
+                "total_production": 0.0,
+                "total_demand": 32.20000076293945,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 2,
+                "reward": -34.22908401489258,
+                "total_production": 0.0,
+                "total_demand": 33.599998474121094,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 3,
+                "reward": -36.061805725097656,
+                "total_production": 0.0,
+                "total_demand": 33.599998474121094,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 4,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 33.599998474121094,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 5,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 34.650001525878906,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 6,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 34.650001525878906,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 7,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 34.650001525878906,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 8,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 34.650001525878906,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 9,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 36.04999923706055,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 10,
+                "reward": -36.95998421987902,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 37.45000076293945,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 7.957896031030032e-08
+              },
+              {
+                "step": 11,
+                "reward": -32.959983825683594,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 38.849998474121094,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 7.671125956676406e-08
+              },
+              {
+                "step": 12,
+                "reward": -32.959983825683594,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 39.900001525878906,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 7.469253660019604e-08
+              },
+              {
+                "step": 13,
+                "reward": -32.959983825683594,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 41.29999923706055,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 7.21605886155885e-08
+              },
+              {
+                "step": 14,
+                "reward": -32.95998764038086,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 42.69999694824219,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 6.979467315204602e-08
+              },
+              {
+                "step": 15,
+                "reward": -32.95998764038086,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 42.69999694824219,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 6.979467315204602e-08
+              },
+              {
+                "step": 16,
+                "reward": -32.959983825683594,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 41.29999923706055,
+                "cost": 1.7523765905025357e-07,
+                "efficiency": 7.21605886155885e-08
+              },
+              {
+                "step": 17,
+                "reward": -32.959983825683594,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 38.849998474121094,
+                "cost": 1.7523765905025357e-07,
+                "efficiency": 7.671125956676406e-08
+              },
+              {
+                "step": 18,
+                "reward": -32.959983825683594,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 38.849998474121094,
+                "cost": 1.7523765905025357e-07,
+                "efficiency": 7.671125956676406e-08
+              },
+              {
+                "step": 19,
+                "reward": -32.959983825683594,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 36.04999923706055,
+                "cost": 1.7523765905025357e-07,
+                "efficiency": 8.266940909607001e-08
+              },
+              {
+                "step": 20,
+                "reward": -32.95998001098633,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 30.80000114440918,
+                "cost": 1.7523765905025357e-07,
+                "efficiency": 9.676078605025396e-08
+              },
+              {
+                "step": 21,
+                "reward": -32.95997619628906,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 26.94999885559082,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 1.1058376259143188e-07
+              },
+              {
+                "step": 22,
+                "reward": -32.95997619628906,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 24.5,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 1.2164213103460497e-07
+              },
+              {
+                "step": 23,
+                "reward": -32.95997619628906,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 23.100000381469727,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 1.290143814003386e-07
+              }
+            ]
+          },
+          {
+            "episode": 3,
+            "reward": -793.004810333252,
+            "cost": 1.018881789605075e-05,
+            "efficiency": 1.370250156303617e-07,
+            "demand_satisfaction": 1.3702501512851332e-07,
+            "temperature_stability": 0.7603747248649597,
+            "steps": [
+              {
+                "step": 0,
+                "reward": -32.28181457519531,
+                "total_production": 0.0,
+                "total_demand": 60.900001525878906,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 1,
+                "reward": -35.60362243652344,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 60.900001525878906,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 4.8936488639128584e-08
+              },
+              {
+                "step": 2,
+                "reward": -32.959991455078125,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 60.900001525878906,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 4.8936488639128584e-08
+              },
+              {
+                "step": 3,
+                "reward": -32.959991455078125,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 60.900001525878906,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 4.8936488639128584e-08
+              },
+              {
+                "step": 4,
+                "reward": -32.959991455078125,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 60.900001525878906,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 4.8936488639128584e-08
+              },
+              {
+                "step": 5,
+                "reward": -32.959991455078125,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 60.900001525878906,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 4.8936488639128584e-08
+              },
+              {
+                "step": 6,
+                "reward": -32.959991455078125,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 60.900001525878906,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 4.8936488639128584e-08
+              },
+              {
+                "step": 7,
+                "reward": -32.95998001098633,
+                "total_production": 5.9604644775390625e-06,
+                "total_demand": 60.900001525878906,
+                "cost": 3.5047531810050714e-07,
+                "efficiency": 9.787297727825717e-08
+              },
+              {
+                "step": 8,
+                "reward": -32.9599723815918,
+                "total_production": 8.940696716308594e-06,
+                "total_demand": 60.900001525878906,
+                "cost": 5.257129487290513e-07,
+                "efficiency": 1.4680946947009943e-07
+              },
+              {
+                "step": 9,
+                "reward": -32.95998001098633,
+                "total_production": 5.9604644775390625e-06,
+                "total_demand": 61.95000076293945,
+                "cost": 3.5047531810050714e-07,
+                "efficiency": 9.621411578564221e-08
+              },
+              {
+                "step": 10,
+                "reward": -32.9599723815918,
+                "total_production": 8.940696716308594e-06,
+                "total_demand": 60.900001525878906,
+                "cost": 5.257129487290513e-07,
+                "efficiency": 1.4680946947009943e-07
+              },
+              {
+                "step": 11,
+                "reward": -32.9599723815918,
+                "total_production": 8.940696716308594e-06,
+                "total_demand": 60.900001525878906,
+                "cost": 5.257129487290513e-07,
+                "efficiency": 1.4680946947009943e-07
+              },
+              {
+                "step": 12,
+                "reward": -32.9599723815918,
+                "total_production": 8.940696716308594e-06,
+                "total_demand": 60.900001525878906,
+                "cost": 3.755092734536447e-07,
+                "efficiency": 1.4680946947009943e-07
+              },
+              {
+                "step": 13,
+                "reward": -32.9599723815918,
+                "total_production": 8.940696716308594e-06,
+                "total_demand": 60.900001525878906,
+                "cost": 3.755092734536447e-07,
+                "efficiency": 1.4680946947009943e-07
+              },
+              {
+                "step": 14,
+                "reward": -32.95996856689453,
+                "total_production": 8.940696716308594e-06,
+                "total_demand": 59.5,
+                "cost": 3.755092734536447e-07,
+                "efficiency": 1.502638156125613e-07
+              },
+              {
+                "step": 15,
+                "reward": -32.95996856689453,
+                "total_production": 8.940696716308594e-06,
+                "total_demand": 59.5,
+                "cost": 3.755092734536447e-07,
+                "efficiency": 1.502638156125613e-07
+              },
+              {
+                "step": 16,
+                "reward": -32.9599609375,
+                "total_production": 1.1920928955078125e-05,
+                "total_demand": 59.5,
+                "cost": 5.006789933759137e-07,
+                "efficiency": 2.0035174941313016e-07
+              },
+              {
+                "step": 17,
+                "reward": -32.9599609375,
+                "total_production": 1.1920928955078125e-05,
+                "total_demand": 60.900001525878906,
+                "cost": 5.006789933759137e-07,
+                "efficiency": 1.9574595455651433e-07
+              },
+              {
+                "step": 18,
+                "reward": -32.9599609375,
+                "total_production": 1.1920928955078125e-05,
+                "total_demand": 60.900001525878906,
+                "cost": 7.009506362010143e-07,
+                "efficiency": 1.9574595455651433e-07
+              },
+              {
+                "step": 19,
+                "reward": -32.9599609375,
+                "total_production": 1.1920928955078125e-05,
+                "total_demand": 60.900001525878906,
+                "cost": 7.009506362010143e-07,
+                "efficiency": 1.9574595455651433e-07
+              },
+              {
+                "step": 20,
+                "reward": -32.95995330810547,
+                "total_production": 1.4901161193847656e-05,
+                "total_demand": 60.900001525878906,
+                "cost": 8.761882668295584e-07,
+                "efficiency": 2.4468243964292924e-07
+              },
+              {
+                "step": 21,
+                "reward": -32.95995330810547,
+                "total_production": 1.4901161193847656e-05,
+                "total_demand": 60.900001525878906,
+                "cost": 8.761882668295584e-07,
+                "efficiency": 2.4468243964292924e-07
+              },
+              {
+                "step": 22,
+                "reward": -32.95995330810547,
+                "total_production": 1.4901161193847656e-05,
+                "total_demand": 60.900001525878906,
+                "cost": 8.761882668295584e-07,
+                "efficiency": 2.4468243964292924e-07
+              },
+              {
+                "step": 23,
+                "reward": -32.95995330810547,
+                "total_production": 1.4901161193847656e-05,
+                "total_demand": 60.900001525878906,
+                "cost": 6.258487701416016e-07,
+                "efficiency": 2.4468243964292924e-07
+              }
+            ]
+          },
+          {
+            "episode": 4,
+            "reward": -804.0331437766781,
+            "cost": 1.0514258974581026e-06,
+            "efficiency": 6.48709927257111e-08,
+            "demand_satisfaction": 6.487099220522278e-08,
+            "temperature_stability": 0.854636013507843,
+            "steps": [
+              {
+                "step": 0,
+                "reward": -29.23271942138672,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 1,
+                "reward": -29.505435943603516,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 2,
+                "reward": -29.778156280517578,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 3,
+                "reward": -30.33179473876953,
+                "total_production": 0.0,
+                "total_demand": 10.149999618530273,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 4,
+                "reward": -31.019065856933594,
+                "total_production": 0.0,
+                "total_demand": 12.600000381469727,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 5,
+                "reward": -31.78270721435547,
+                "total_production": 0.0,
+                "total_demand": 13.999999046325684,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 6,
+                "reward": -32.69906997680664,
+                "total_production": 0.0,
+                "total_demand": 16.799999237060547,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 7,
+                "reward": -33.672706604003906,
+                "total_production": 0.0,
+                "total_demand": 17.850000381469727,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 8,
+                "reward": -34.72270965576172,
+                "total_production": 0.0,
+                "total_demand": 19.249998092651367,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 9,
+                "reward": -35.849056243896484,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 20.649999618530273,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 1.44321177231177e-07
+              },
+              {
+                "step": 10,
+                "reward": -32.9599723815918,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 21.700000762939453,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 1.3733789216985315e-07
+              },
+              {
+                "step": 11,
+                "reward": -32.9599723815918,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 21.700000762939453,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 1.3733789216985315e-07
+              },
+              {
+                "step": 12,
+                "reward": -32.95997619628906,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 23.100000381469727,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 1.290143814003386e-07
+              },
+              {
+                "step": 13,
+                "reward": -32.95997619628906,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 23.100000381469727,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 1.290143814003386e-07
+              },
+              {
+                "step": 14,
+                "reward": -32.95997619628906,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 23.100000381469727,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 1.290143814003386e-07
+              },
+              {
+                "step": 15,
+                "reward": -32.95996856689453,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 19.249998092651367,
+                "cost": 1.7523765905025357e-07,
+                "efficiency": 1.5481727189126104e-07
+              },
+              {
+                "step": 16,
+                "reward": -32.959999084472656,
+                "total_production": 0.0,
+                "total_demand": 15.40000057220459,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 17,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 11.550000190734863,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 18,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 7.700000286102295,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 19,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 20,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 21,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 22,
+                "reward": -36.95988175275216,
+                "total_production": 2.9802322387695312e-06,
+                "total_demand": 5.0,
+                "cost": 1.2516974834397843e-07,
+                "efficiency": 5.960464477539062e-07
+              },
+              {
+                "step": 23,
+                "reward": -32.959999084472656,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              }
+            ]
+          },
+          {
+            "episode": 5,
+            "reward": -804.8983074951175,
+            "cost": 0.0,
+            "efficiency": 0.0,
+            "demand_satisfaction": 0.0,
+            "temperature_stability": 0.8609647154808044,
+            "steps": [
+              {
+                "step": 0,
+                "reward": -29.37999725341797,
+                "total_production": 0.0,
+                "total_demand": 7.700000286102295,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 1,
+                "reward": -29.723636627197266,
+                "total_production": 0.0,
+                "total_demand": 6.300000190734863,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 2,
+                "reward": -29.996353149414062,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 3,
+                "reward": -30.269073486328125,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 4,
+                "reward": -30.541790008544922,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 5,
+                "reward": -30.814510345458984,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 6,
+                "reward": -31.087230682373047,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 7,
+                "reward": -31.359947204589844,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 8,
+                "reward": -31.632667541503906,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 9,
+                "reward": -31.90538787841797,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 10,
+                "reward": -32.178104400634766,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 11,
+                "reward": -32.45082473754883,
+                "total_production": 0.0,
+                "total_demand": 5.0,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 12,
+                "reward": -33.00446319580078,
+                "total_production": 0.0,
+                "total_demand": 10.149999618530273,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 13,
+                "reward": -33.768104553222656,
+                "total_production": 0.0,
+                "total_demand": 13.999999046325684,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 14,
+                "reward": -34.81810760498047,
+                "total_production": 0.0,
+                "total_demand": 19.249998092651367,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 15,
+                "reward": -36.288108825683594,
+                "total_production": 0.0,
+                "total_demand": 26.94999885559082,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 16,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 33.599998474121094,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 17,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 34.650001525878906,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 18,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 37.45000076293945,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 19,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 37.45000076293945,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 20,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 37.45000076293945,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 21,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 36.04999923706055,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 22,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 34.650001525878906,
+                "cost": 0.0,
+                "efficiency": 0.0
+              },
+              {
+                "step": 23,
+                "reward": -36.96000000000001,
+                "total_production": 0.0,
+                "total_demand": 33.599998474121094,
+                "cost": 0.0,
+                "efficiency": 0.0
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "avg_reward": -808.170078369404,
+          "std_reward": 10.147765976697407,
+          "avg_cost": 2.938985790024162e-06,
+          "std_cost": 3.6837047929698553e-06,
+          "avg_efficiency": 5.902273851887685e-08,
+          "std_efficiency": 4.458432436210656e-08,
+          "avg_demand_satisfaction": 5.902273810567767e-08,
+          "avg_temperature_stability": 0.8254246711730957
+        },
+        "evaluation_timestamp": "2025-09-14T01:34:40.214018"
+      },
+      "baseline_results": {
+        "algorithm": "Baseline",
+        "episodes": 5,
+        "summary": {
+          "avg_reward": -1222.7848435163498,
+          "std_reward": 8798.048979406349,
+          "avg_cost": 61.245171546936035,
+          "std_cost": 0.0,
+          "avg_efficiency": 0.6921315067137281,
+          "std_efficiency": 0.22767679402100852,
+          "avg_demand_satisfaction": 0.9847209676998997,
+          "avg_temperature_stability": 0.9065374135971069
+        }
+      },
+      "improvements": {
+        "reward_improvement": 33.90741775590237,
+        "cost_reduction": 99.99999520127757,
+        "efficiency_improvement": -99.99999147232313,
+        "demand_satisfaction_improvement": -99.9999940061459,
+        "temperature_stability_improvement": -8.947533902893083
+      },
+      "comparison_timestamp": "2025-09-14T01:34:41.783558"
+    },
+    "sac_comparison": {
+      "reward_diff": -130.76918030365235,
+      "cost_diff": -99.99998789360966,
+      "efficiency_diff": -99.99997566145927
+    }
+  },
+  "summary": {
+    "avg_reward": -797.8848452081003,
+    "avg_cost": 6.458759250449475e-06,
+    "avg_efficiency": 1.41406921564761e-07,
+    "cost_reduction_vs_baseline": 99.99999520127757,
+    "reward_vs_sac": -130.76918030365235,
+    "training_successful": true
+  }
+}

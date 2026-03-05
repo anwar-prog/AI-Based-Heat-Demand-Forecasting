@@ -1,0 +1,15 @@
+{
+  "costs": [],
+  "rewards": [],
+  "demand_satisfaction": [],
+  "best_parameters": null,
+  "training_time": 144.1167061328888,
+  "total_timesteps": 100,
+  "final_cost": 50.0,
+  "best_cost": 50.0,
+  "best_episode": 0,
+  "final_demand_satisfaction": 0.9,
+  "cost_history": [],
+  "reward_history": [],
+  "demand_history": []
+}

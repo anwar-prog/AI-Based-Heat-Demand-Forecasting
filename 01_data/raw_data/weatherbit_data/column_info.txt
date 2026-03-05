@@ -1,0 +1,31 @@
+Weather Data Columns:
+==============================
+ 1. app_temp
+ 2. azimuth
+ 3. clouds
+ 4. datetime
+ 5. dewpt
+ 6. dhi
+ 7. dni
+ 8. elev_angle
+ 9. ghi
+10. h_angle
+11. pod
+12. precip
+13. pres
+14. revision_status
+15. rh
+16. slp
+17. snow
+18. solar_rad
+19. temp
+20. timestamp_local
+21. timestamp_utc
+22. ts
+23. uv
+24. vis
+25. weather
+26. wind_dir
+27. wind_gust_spd
+28. wind_spd
+29. year_month

@@ -1,0 +1,12 @@
+max_operating_temp,max_supply_temp,min_supply_temp,max_return_temp,temp_breakpoint,design_pressure,max_diff_pressure,elevation,last_updated,control_strategy,zone
+130,120,70,50,8.0,10,4.0,206,01.05.2021,Bi-linear,B1_B2
+130,110,70,50,8.0,16,2.4,225,01.05.2021,Bi-linear,F1_Nord
+130,120,70,50,8.0,25,9.0,225,01.10.2023,Bi-linear,F1_Sud
+110,110,70,50,,16,4.0,209,06.02.2025,Constant,Maintal
+130,90,65,50,8.0,10,3.0,220,01.10.2023,Bi-linear,N1
+90,80,60,50,8.0,10,3.0,214,01.10.2023,Bi-linear,N2
+130,110,70,50,8.0,16,3.5,229,01.05.2021,Bi-linear,V1
+130,75,65,50,8.0,25,3.0,237,01.10.2023,Bi-linear,V2
+95,85,65,50,8.0,16,2.0,237,01.05.2021,Bi-linear,V6
+130,110,70,50,8.0,25,3.4,214,01.05.2021,Bi-linear,W1
+130,120,70,50,8.0,25,8.5,211,01.05.2021,Bi-linear,ZN
